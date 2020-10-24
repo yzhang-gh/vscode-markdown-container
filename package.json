@@ -1,0 +1,33 @@
+{
+	"name": "vscode-markdown-container",
+	"displayName": "Markdown Container",
+	"description": "",
+    "icon": "images/icon.png",
+	"version": "0.0.1",
+	"publisher": "yzhang",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"markdown"
+	],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yzhang-gh/vscode-markdown-container"
+    },
+    "license": "MIT",
+	"activationEvents": [],
+	"main": "./extension.js",
+	"contributes": {
+		"markdown.markdownItPlugins": true
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.50.0"
+	},
+	"dependencies": {
+		"markdown-it-container": "^3.0.0"
+	}
+}
